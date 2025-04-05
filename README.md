@@ -1,4 +1,4 @@
-# Handwritten-Digit-Detection-using-Neural-Network
+# Handwritten-Digit-Detection-and-Live-Prediction-using-Neural-Network
 
 ## About the dataset used (MNIST):
 
