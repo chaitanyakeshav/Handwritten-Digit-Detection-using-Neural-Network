@@ -12,6 +12,6 @@ This project demonstrates a complete pipeline for handwritten digit recognition 
 
 This project employs a simple Neural Network using TensorFlow. The network begins with an input layer of 784 nodes, corresponding to the flattened 28x28 grayscale pixel values of the MNIST digit images. It is followed by two hidden layers — the first with 128 neurons and the second with 64 neurons — both using the ReLU activation function to introduce non-linearity. The output layer contains 10 neurons with a softmax activation, providing a probability distribution over the digit classes (0 through 9). The model is compiled using Stochastic Gradient Descent (SGD) and trained with categorical crossentropy, a standard loss function for multi-class classification tasks.
 
-## Live Drawn digit detection : Tkinter GUI Integration
+## Live Drawn Digit Detection : Tkinter GUI Integration
 
 At last I have used simple yet effective Tkinter-based graphical user interface that allows users to draw digits directly on a canvas. Once a digit is drawn, the image is preprocessed — resized to 28x28 pixels, colors inverted, normalized, thresholded to remove noise, and centered using the digit's center of mass. The processed image is then passed to the trained neural network model, which predicts the digit in real time. The predicted digit is displayed in the GUI, making the model's functionality easily testable and interactive for users.
